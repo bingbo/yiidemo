@@ -33,3 +33,7 @@ server {
     }
 }
 ```
+
+##访问
+
+http://localhost:8001/index.php/user/index

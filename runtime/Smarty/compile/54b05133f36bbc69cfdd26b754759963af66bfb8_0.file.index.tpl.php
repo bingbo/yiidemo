@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30-dev/72, created on 2016-07-06 11:28:00
-  from "/Users/zhangbingbing/Work/nginx/html/yiidemo/views/index/index.tpl" */
+/* Smarty version 3.1.30-dev/72, created on 2016-07-06 11:29:44
+  from "/Users/zhangbingbing/Work/nginx/html/yiidemo/views/user/index.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30-dev/72',
-  'unifunc' => 'content_577ceb40703d99_26882540',
+  'unifunc' => 'content_577ceba89e1e83_97041213',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '453c149bbab5946ba1e5b66b1f1380a6175baf0f' => 
+    '54b05133f36bbc69cfdd26b754759963af66bfb8' => 
     array (
-      0 => '/Users/zhangbingbing/Work/nginx/html/yiidemo/views/index/index.tpl',
-      1 => 1467803795,
+      0 => '/Users/zhangbingbing/Work/nginx/html/yiidemo/views/user/index.tpl',
+      1 => 1467804274,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_577ceb40703d99_26882540 (Smarty_Internal_Template $_smarty_tpl) {
+function content_577ceba89e1e83_97041213 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
