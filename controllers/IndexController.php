@@ -7,6 +7,8 @@ use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 
+use Blablacar\Memcached;
+
 use app\models\User;
 
 class IndexController extends Controller
@@ -29,6 +31,10 @@ class IndexController extends Controller
 
     public function actionHello()
     {
+        //$redis = new \Predis\Client();
+        //$redis->set('name','bill');
+        //var_dump($redis->get('name'));
+
         return $this->render('index');
     }
 
