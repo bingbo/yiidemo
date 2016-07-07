@@ -6,20 +6,19 @@
     <p class="lead">You have successfully created your Yii-powered application.</p>
     <div class="body-content">
         <table class="table">
-            <tr><th>id</th><th>name</th><th>password</th><th>操作</th></tr>
-            {foreach $users as $key => $user}
             <tr>
+                <th>id</th>
                 <td>{$user.id}</td>
-                <td>{$user.name}</td>
-                <td>{$user.password}</td>
-                <td>
-                    <a href="/index.php/user/detail?id={$user.id}">详情</a>
-                    <a href="/index.php/user/delete?id={$user.id}">删除</a>
-                </td>
             </tr>
-            {/foreach}
+            <tr>
+                <th>name</th>
+                <td>{$user.name}</td>
+            </tr>
+            <tr>
+                <th>password</th>
+                <td>{$user.password}</td>
+            </tr>
         </table>
-        <a class="btn btn-default" href="/index.php/user/show" role="button">Add User</a>
     </div>
 </div>
 {/block}
