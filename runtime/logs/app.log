@@ -4001,3 +4001,520 @@ Stack trace:
     'REQUEST_TIME_FLOAT' => 1467869039.3248
     'REQUEST_TIME' => 1467869039
 ]
+2016-07-07 07:13:58 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Memcache' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:38
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(87): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-07 07:13:58 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63846'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'DOCUMENT_URI' => '/index.php/index/hello'
+    'REQUEST_URI' => '/index.php/index/hello'
+    'SCRIPT_NAME' => '/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1467875638.533
+    'REQUEST_TIME' => 1467875638
+]
+2016-07-07 07:15:01 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Memcache' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:38
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(87): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-07 07:15:01 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63846'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'DOCUMENT_URI' => '/index.php/index/hello'
+    'REQUEST_URI' => '/index.php/index/hello'
+    'SCRIPT_NAME' => '/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1467875701.3651
+    'REQUEST_TIME' => 1467875701
+]
+2016-07-07 07:15:32 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Memcache' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:38
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(87): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-07 07:15:32 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63846'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'DOCUMENT_URI' => '/index.php/index/hello'
+    'REQUEST_URI' => '/index.php/index/hello'
+    'SCRIPT_NAME' => '/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1467875732.3238
+    'REQUEST_TIME' => 1467875732
+]
+2016-07-07 07:15:32 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Memcache' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:38
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(87): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-07 07:15:32 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63846'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'DOCUMENT_URI' => '/index.php/index/hello'
+    'REQUEST_URI' => '/index.php/index/hello'
+    'SCRIPT_NAME' => '/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1467875732.8824
+    'REQUEST_TIME' => 1467875732
+]
+2016-07-07 07:15:33 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Memcache' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:38
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(87): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-07 07:15:33 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63846'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'DOCUMENT_URI' => '/index.php/index/hello'
+    'REQUEST_URI' => '/index.php/index/hello'
+    'SCRIPT_NAME' => '/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1467875733.2189
+    'REQUEST_TIME' => 1467875733
+]
+2016-07-07 07:15:33 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Memcache' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:38
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(87): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-07 07:15:33 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63846'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'DOCUMENT_URI' => '/index.php/index/hello'
+    'REQUEST_URI' => '/index.php/index/hello'
+    'SCRIPT_NAME' => '/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1467875733.4505
+    'REQUEST_TIME' => 1467875733
+]
+2016-07-07 07:15:33 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Memcache' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:38
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(87): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-07 07:15:33 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63846'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'DOCUMENT_URI' => '/index.php/index/hello'
+    'REQUEST_URI' => '/index.php/index/hello'
+    'SCRIPT_NAME' => '/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1467875733.6803
+    'REQUEST_TIME' => 1467875733
+]
+2016-07-07 07:15:33 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Memcache' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:38
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(87): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-07 07:15:33 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63846'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'DOCUMENT_URI' => '/index.php/index/hello'
+    'REQUEST_URI' => '/index.php/index/hello'
+    'SCRIPT_NAME' => '/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1467875733.8966
+    'REQUEST_TIME' => 1467875733
+]
+2016-07-07 07:15:34 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Memcache' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:38
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(87): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-07 07:15:34 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63846'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'DOCUMENT_URI' => '/index.php/index/hello'
+    'REQUEST_URI' => '/index.php/index/hello'
+    'SCRIPT_NAME' => '/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1467875734.0859
+    'REQUEST_TIME' => 1467875734
+]
+2016-07-07 07:15:34 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Memcache' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:38
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(87): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-07 07:15:34 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63846'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'DOCUMENT_URI' => '/index.php/index/hello'
+    'REQUEST_URI' => '/index.php/index/hello'
+    'SCRIPT_NAME' => '/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1467875734.2787
+    'REQUEST_TIME' => 1467875734
+]
+2016-07-07 07:15:34 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Memcache' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:38
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(87): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-07 07:15:34 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63846'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web'
+    'DOCUMENT_URI' => '/index.php/index/hello'
+    'REQUEST_URI' => '/index.php/index/hello'
+    'SCRIPT_NAME' => '/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1467875734.4727
+    'REQUEST_TIME' => 1467875734
+]
