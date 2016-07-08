@@ -13,13 +13,13 @@
                 <td>{$user.name}</td>
                 <td>{$user.password}</td>
                 <td>
-                    <a href="/index.php/user/detail?id={$user.id}">详情</a>
-                    <a href="/index.php/user/delete?id={$user.id}">删除</a>
+                    <a href="/user/detail?id={$user.id}">详情</a>
+                    <a href="/user/delete?id={$user.id}">删除</a>
                 </td>
             </tr>
             {/foreach}
         </table>
-        <a class="btn btn-default" href="/index.php/user/show" role="button">Add User</a>
+        <a class="btn btn-default" href="/user/show" role="button">Add User</a>
     </div>
 </div>
 {/block}

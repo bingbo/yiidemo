@@ -40,7 +40,7 @@ class UserController extends Controller
         $user->password = $request->post('password');
         $user->save();
         //return $this->render('index');
-        return $this->redirect('/index.php/user/index');
+        return $this->redirect('/user/index');
     }
 
     public function actionShow(){
@@ -51,7 +51,7 @@ class UserController extends Controller
     public function actionDelete(){
         $request = Yii::$app->request;
         User::findOne($request->get('id'))->delete();
-        return $this->redirect('/index.php/user/index');
+        return $this->redirect('/user/index');
     }
 
 

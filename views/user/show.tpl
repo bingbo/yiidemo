@@ -5,7 +5,7 @@
     <h1>Add User</h1>
     <p class="lead">give me your name and password.</p>
     <div class="body-content">
-        <form class="form-horizontal" action="/index.php/user/add" method="post">
+        <form class="form-horizontal" action="/user/add" method="post">
             <input name="_csrf" type="hidden" id="_csrf" value="{$csrfToken}">
             <div class="form-group">
                 <label class="col-sm-2 control-label">Name</label>
