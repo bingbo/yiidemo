@@ -7,7 +7,7 @@ use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 
-use Blablacar\Memcached;
+use Thrift\Transport\TSocket;
 
 use app\models\User;
 
@@ -35,6 +35,8 @@ class IndexController extends Controller
         //$redis->set('name','bill');
         //var_dump($redis->get('name'));
 
+        $socket = new TSocket("127.0.0.1", 8091);
+        var_dump($socket);die;
         return $this->render('index');
     }
 
