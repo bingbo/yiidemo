@@ -15,6 +15,7 @@
                 <td>
                     <a href="/user/detail?id={$user.id}">详情</a>
                     <a href="/user/delete?id={$user.id}">删除</a>
+                    <a href="/user/edit?id={$user.id}">编辑</a>
                 </td>
             </tr>
             {/foreach}

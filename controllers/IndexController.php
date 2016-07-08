@@ -38,6 +38,14 @@ class IndexController extends Controller
         return $this->render('index');
     }
 
+    public function actions(){
+        return array(
+            'say' => array('class' => 'app\actions\index\SayAction'),
+        );
+    }
+
+
+
 
     
 

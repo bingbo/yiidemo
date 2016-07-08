@@ -134,6 +134,7 @@ class BaseYii
         }
 
         $pos = strpos($alias, '/');
+
         $root = $pos === false ? $alias : substr($alias, 0, $pos);
 
         if (isset(static::$aliases[$root])) {
@@ -271,11 +272,13 @@ class BaseYii
      */
     public static function autoload($className)
     {
+
         if (isset(static::$classMap[$className])) {
             $classFile = static::$classMap[$className];
             if ($classFile[0] === '@') {
                 $classFile = static::getAlias($classFile);
             }
+
         } elseif (strpos($className, '\\') !== false) {
             $classFile = static::getAlias('@' . str_replace('\\', '/', $className) . '.php', false);
             if ($classFile === false || !is_file($classFile)) {

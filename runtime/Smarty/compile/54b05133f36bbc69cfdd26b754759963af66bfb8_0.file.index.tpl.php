@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30-dev/72, created on 2016-07-08 01:45:33
+/* Smarty version 3.1.30-dev/72, created on 2016-07-08 07:52:00
   from "/Users/zhangbingbing/Work/nginx/html/yiidemo/views/user/index.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30-dev/72',
-  'unifunc' => 'content_577f05bd1ae485_04899218',
+  'unifunc' => 'content_577f5ba0b10582_11108233',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '54b05133f36bbc69cfdd26b754759963af66bfb8' => 
     array (
       0 => '/Users/zhangbingbing/Work/nginx/html/yiidemo/views/user/index.tpl',
-      1 => 1467942279,
+      1 => 1467964298,
       2 => 'file',
     ),
   ),
@@ -21,21 +21,21 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../layout/main.tpl' => 1,
   ),
 ),false)) {
-function content_577f05bd1ae485_04899218 (Smarty_Internal_Template $_smarty_tpl) {
+function content_577f5ba0b10582_11108233 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1624013493577f05bd1adda4_14814944', 'body');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1592283245577f5ba0b0fd69_73679113', 'body');
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl);
 $_smarty_tpl->_subTemplateRender("file:../layout/main.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 2, false);
 }
 /* {block 'body'} */
-class Block_1624013493577f05bd1adda4_14814944 extends Smarty_Internal_Block
+class Block_1592283245577f5ba0b0fd69_73679113 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -63,6 +63,8 @@ foreach ($_from as $_smarty_tpl->tpl_vars['key']->value => $_smarty_tpl->tpl_var
 ">详情</a>
                     <a href="/user/delete?id=<?php echo $_smarty_tpl->tpl_vars['user']->value['id'];?>
 ">删除</a>
+                    <a href="/user/edit?id=<?php echo $_smarty_tpl->tpl_vars['user']->value['id'];?>
+">编辑</a>
                 </td>
             </tr>
             <?php

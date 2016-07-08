@@ -79,7 +79,6 @@ class Application extends \yii\base\Application
             $params = $this->catchAll;
             unset($params[0]);
         }
-        //var_dump(111);die;
 
         try {
             Yii::trace("Route requested: '$route'", __METHOD__);
