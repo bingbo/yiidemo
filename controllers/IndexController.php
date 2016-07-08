@@ -43,6 +43,14 @@ class IndexController extends Controller
             'say' => array('class' => 'app\actions\index\SayAction'),
         );
     }
+    public function actionError(){
+        $request = Yii::$app->request;
+        $e = array(
+            'msg' => $request->get('msg'),
+            'code' => $request->get('code'),
+        );
+        return $this->render('error.tpl', ['e' => $e]);
+    }
 
 
 

@@ -4,6 +4,7 @@ namespace app\library\base;
 
 use Yii;
 use yii\base\Action;
+use yii\base\UserException;
 
 
 abstract class CAction extends Action{
@@ -13,7 +14,13 @@ abstract class CAction extends Action{
         try{
             $this->_initParams();
             return $this->execute();
-        }catch(Exception $e){}
+        }catch(UserException $e){
+            $exception = array(
+                'message' => $e->getMessage(),
+                'code' => $e->getCode(),
+            );
+            $this->controller->redirect(['index/error', 'msg' => $e->getMessage(), 'code' => $e->getCode()]);
+        }
     }
 
     /**

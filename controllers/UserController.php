@@ -9,6 +9,7 @@ use yii\filters\VerbFilter;
 
 use app\models\User;
 
+
 class UserController extends Controller
 {
    
@@ -21,6 +22,7 @@ class UserController extends Controller
      */
     public function actionIndex()
     {
+
         $users = User::find()->orderBy('name')->all();
         //echo('aaaaaaaaa');
         //return $this->render('index');
