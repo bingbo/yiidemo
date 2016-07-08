@@ -11,8 +11,9 @@ server {
 
     #access_log  logs/host.access.log  main;
 
-    root    html/yiidemo/web;
+    
     location /static {
+        root    html/yiidemo/web;
     }
 
     error_page   500 502 503 504  /50x.html;
@@ -24,7 +25,8 @@ server {
         fastcgi_pass   127.0.0.1:9000;
         fastcgi_index  index.php;
         fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
-        include        fastcgi_params;
+        include        fastcgi_params
+        rewrite ^(.*)$ /yiidemo/web/index.php$1 break;
     }
 
     
