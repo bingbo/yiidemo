@@ -10124,3 +10124,2352 @@ Stack trace:
     'REQUEST_TIME_FLOAT' => 1468033952.7755
     'REQUEST_TIME' => 1468033952
 ]
+2016-07-09 04:22:24 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:39
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:22:24 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59757'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038144.7343
+    'REQUEST_TIME' => 1468038144
+]
+2016-07-09 04:28:39 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:39
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:28:39 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59859'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038519.1289
+    'REQUEST_TIME' => 1468038519
+]
+2016-07-09 04:28:42 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:39
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:28:42 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59859'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038522.8345
+    'REQUEST_TIME' => 1468038522
+]
+2016-07-09 04:28:43 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:39
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:28:43 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59859'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038523.2827
+    'REQUEST_TIME' => 1468038523
+]
+2016-07-09 04:28:43 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:39
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:28:43 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59859'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038523.5774
+    'REQUEST_TIME' => 1468038523
+]
+2016-07-09 04:28:43 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:39
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:28:43 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59859'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038523.822
+    'REQUEST_TIME' => 1468038523
+]
+2016-07-09 04:28:44 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:39
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:28:44 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59859'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038524.0423
+    'REQUEST_TIME' => 1468038524
+]
+2016-07-09 04:28:44 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:39
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:28:44 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59859'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038524.2309
+    'REQUEST_TIME' => 1468038524
+]
+2016-07-09 04:28:44 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:39
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:28:44 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59859'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038524.4171
+    'REQUEST_TIME' => 1468038524
+]
+2016-07-09 04:29:44 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:29:44 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59859'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038584.1956
+    'REQUEST_TIME' => 1468038584
+]
+2016-07-09 04:29:44 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:29:44 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59859'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038584.7397
+    'REQUEST_TIME' => 1468038584
+]
+2016-07-09 04:29:45 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:29:45 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59859'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038585.0102
+    'REQUEST_TIME' => 1468038585
+]
+2016-07-09 04:29:45 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:29:45 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59859'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038585.2164
+    'REQUEST_TIME' => 1468038585
+]
+2016-07-09 04:29:45 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:29:45 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59859'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038585.4035
+    'REQUEST_TIME' => 1468038585
+]
+2016-07-09 04:29:45 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:29:45 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59859'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038585.5835
+    'REQUEST_TIME' => 1468038585
+]
+2016-07-09 04:29:45 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:29:45 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59887'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038585.718
+    'REQUEST_TIME' => 1468038585
+]
+2016-07-09 04:34:18 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:34:18 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59906'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038858.9326
+    'REQUEST_TIME' => 1468038858
+]
+2016-07-09 04:34:20 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:34:20 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59906'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038860.236
+    'REQUEST_TIME' => 1468038860
+]
+2016-07-09 04:34:20 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:34:20 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59906'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038860.6265
+    'REQUEST_TIME' => 1468038860
+]
+2016-07-09 04:34:20 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:34:20 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59906'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038860.8724
+    'REQUEST_TIME' => 1468038860
+]
+2016-07-09 04:34:21 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:34:21 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59906'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038861.0715
+    'REQUEST_TIME' => 1468038861
+]
+2016-07-09 04:34:21 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:34:21 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59906'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038861.2598
+    'REQUEST_TIME' => 1468038861
+]
+2016-07-09 04:34:21 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:34:21 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59906'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038861.4444
+    'REQUEST_TIME' => 1468038861
+]
+2016-07-09 04:34:21 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:34:21 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59906'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038861.6433
+    'REQUEST_TIME' => 1468038861
+]
+2016-07-09 04:34:21 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:34:21 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59906'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038861.8286
+    'REQUEST_TIME' => 1468038861
+]
+2016-07-09 04:34:22 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:34:22 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59906'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038862.0131
+    'REQUEST_TIME' => 1468038862
+]
+2016-07-09 04:34:22 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:34:22 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59906'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038862.2016
+    'REQUEST_TIME' => 1468038862
+]
+2016-07-09 04:34:22 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:34:22 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59906'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038862.3796
+    'REQUEST_TIME' => 1468038862
+]
+2016-07-09 04:34:22 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:34:22 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59906'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038862.5928
+    'REQUEST_TIME' => 1468038862
+]
+2016-07-09 04:34:22 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:34:22 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59906'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038862.8806
+    'REQUEST_TIME' => 1468038862
+]
+2016-07-09 04:34:23 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:34:23 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59906'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038863.1139
+    'REQUEST_TIME' => 1468038863
+]
+2016-07-09 04:34:23 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:34:23 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59906'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038863.3957
+    'REQUEST_TIME' => 1468038863
+]
+2016-07-09 04:34:23 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:34:23 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59906'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038863.6885
+    'REQUEST_TIME' => 1468038863
+]
+2016-07-09 04:34:23 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:34:23 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59906'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468038863.9316
+    'REQUEST_TIME' => 1468038863
+]
+2016-07-09 04:38:12 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:38:12 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59945'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468039092.3763
+    'REQUEST_TIME' => 1468039092
+]
+2016-07-09 04:38:13 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:38:13 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59945'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468039093.0602
+    'REQUEST_TIME' => 1468039093
+]
+2016-07-09 04:38:13 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:38:13 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59945'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468039093.4695
+    'REQUEST_TIME' => 1468039093
+]
+2016-07-09 04:38:13 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:38:13 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59945'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468039093.7273
+    'REQUEST_TIME' => 1468039093
+]
+2016-07-09 04:38:13 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:38:13 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59945'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468039093.9256
+    'REQUEST_TIME' => 1468039093
+]
+2016-07-09 04:38:14 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:38:14 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59945'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468039094.1119
+    'REQUEST_TIME' => 1468039094
+]
+2016-07-09 04:38:49 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:38:49 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59945'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468039129.269
+    'REQUEST_TIME' => 1468039129
+]
+2016-07-09 04:38:50 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:38:50 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59945'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468039130.5822
+    'REQUEST_TIME' => 1468039130
+]
+2016-07-09 04:38:50 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:38:50 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59945'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468039130.9457
+    'REQUEST_TIME' => 1468039130
+]
+2016-07-09 04:38:51 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:38:51 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59945'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468039131.2078
+    'REQUEST_TIME' => 1468039131
+]
+2016-07-09 04:38:51 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:38:51 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59945'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468039131.4196
+    'REQUEST_TIME' => 1468039131
+]
+2016-07-09 04:38:51 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:38:51 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59945'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468039131.6083
+    'REQUEST_TIME' => 1468039131
+]
+2016-07-09 04:38:51 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 04:38:51 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59945'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468039131.7934
+    'REQUEST_TIME' => 1468039131
+]
+2016-07-09 07:13:21 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 07:13:21 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60036'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468048401.2755
+    'REQUEST_TIME' => 1468048401
+]
+2016-07-09 07:13:22 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 07:13:22 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60036'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468048402.0736
+    'REQUEST_TIME' => 1468048402
+]
+2016-07-09 07:25:46 [127.0.0.1][-][-][error][Error] Error: Class 'Clickalicious\Memcached\Client' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 07:25:46 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60230'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468049146.371
+    'REQUEST_TIME' => 1468049146
+]
