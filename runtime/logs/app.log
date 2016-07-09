@@ -8415,3 +8415,1712 @@ Stack trace:
     'REQUEST_TIME_FLOAT' => 1468031980.1
     'REQUEST_TIME' => 1468031980
 ]
+2016-07-09 03:04:06 [127.0.0.1][-][-][error][Thrift\Exception\TException] Thrift\Exception\TException: TSocket: Could not connect to 127.0.0.1:57308 (Connection refused [61]) in /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/hbase/Thrift/Transport/TSocket.php:253
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/hbase/Thrift/Transport/TFramedTransport.php(87): Thrift\Transport\TSocket->open()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php(45): Thrift\Transport\TFramedTransport->open()
+#2 [internal function]: app\controllers\IndexController->actionHello()
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#9 {main}
+2016-07-09 03:04:06 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58507'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033446.449
+    'REQUEST_TIME' => 1468033446
+]
+2016-07-09 03:04:08 [127.0.0.1][-][-][error][Thrift\Exception\TException] Thrift\Exception\TException: TSocket: Could not connect to 127.0.0.1:57308 (Connection refused [61]) in /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/hbase/Thrift/Transport/TSocket.php:253
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/hbase/Thrift/Transport/TFramedTransport.php(87): Thrift\Transport\TSocket->open()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php(45): Thrift\Transport\TFramedTransport->open()
+#2 [internal function]: app\controllers\IndexController->actionHello()
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#9 {main}
+2016-07-09 03:04:08 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58507'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033448.6763
+    'REQUEST_TIME' => 1468033448
+]
+2016-07-09 03:04:09 [127.0.0.1][-][-][error][Thrift\Exception\TException] Thrift\Exception\TException: TSocket: Could not connect to 127.0.0.1:57308 (Connection refused [61]) in /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/hbase/Thrift/Transport/TSocket.php:253
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/hbase/Thrift/Transport/TFramedTransport.php(87): Thrift\Transport\TSocket->open()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php(45): Thrift\Transport\TFramedTransport->open()
+#2 [internal function]: app\controllers\IndexController->actionHello()
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#9 {main}
+2016-07-09 03:04:09 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58507'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033449.2469
+    'REQUEST_TIME' => 1468033449
+]
+2016-07-09 03:04:09 [127.0.0.1][-][-][error][Thrift\Exception\TException] Thrift\Exception\TException: TSocket: Could not connect to 127.0.0.1:57308 (Connection refused [61]) in /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/hbase/Thrift/Transport/TSocket.php:253
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/hbase/Thrift/Transport/TFramedTransport.php(87): Thrift\Transport\TSocket->open()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php(45): Thrift\Transport\TFramedTransport->open()
+#2 [internal function]: app\controllers\IndexController->actionHello()
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#9 {main}
+2016-07-09 03:04:09 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58507'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033449.4799
+    'REQUEST_TIME' => 1468033449
+]
+2016-07-09 03:05:13 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:05:13 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58507'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033513.5532
+    'REQUEST_TIME' => 1468033513
+]
+2016-07-09 03:06:18 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:18 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58580'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033578.7765
+    'REQUEST_TIME' => 1468033578
+]
+2016-07-09 03:06:20 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:20 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58580'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033580.5517
+    'REQUEST_TIME' => 1468033580
+]
+2016-07-09 03:06:20 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:20 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58580'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033580.9776
+    'REQUEST_TIME' => 1468033580
+]
+2016-07-09 03:06:21 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:21 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58580'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033581.2099
+    'REQUEST_TIME' => 1468033581
+]
+2016-07-09 03:06:21 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:21 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58580'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033581.413
+    'REQUEST_TIME' => 1468033581
+]
+2016-07-09 03:06:21 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:21 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58580'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033581.5998
+    'REQUEST_TIME' => 1468033581
+]
+2016-07-09 03:06:21 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:21 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58580'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033581.7928
+    'REQUEST_TIME' => 1468033581
+]
+2016-07-09 03:06:21 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:21 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58596'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033581.9189
+    'REQUEST_TIME' => 1468033581
+]
+2016-07-09 03:06:22 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:22 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58596'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033582.1156
+    'REQUEST_TIME' => 1468033582
+]
+2016-07-09 03:06:22 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:22 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58602'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033582.254
+    'REQUEST_TIME' => 1468033582
+]
+2016-07-09 03:06:22 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:22 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58602'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033582.4348
+    'REQUEST_TIME' => 1468033582
+]
+2016-07-09 03:06:22 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:22 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58602'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033582.6243
+    'REQUEST_TIME' => 1468033582
+]
+2016-07-09 03:06:55 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:55 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58602'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033615.2468
+    'REQUEST_TIME' => 1468033615
+]
+2016-07-09 03:06:56 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:56 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58602'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033616.7472
+    'REQUEST_TIME' => 1468033616
+]
+2016-07-09 03:06:57 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:57 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58602'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033617.1451
+    'REQUEST_TIME' => 1468033617
+]
+2016-07-09 03:06:57 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:57 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58602'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033617.3678
+    'REQUEST_TIME' => 1468033617
+]
+2016-07-09 03:06:57 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:57 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58602'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033617.5594
+    'REQUEST_TIME' => 1468033617
+]
+2016-07-09 03:06:57 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:57 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58602'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033617.7495
+    'REQUEST_TIME' => 1468033617
+]
+2016-07-09 03:06:57 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:57 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58632'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033617.8756
+    'REQUEST_TIME' => 1468033617
+]
+2016-07-09 03:06:58 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:58 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58632'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033618.0602
+    'REQUEST_TIME' => 1468033618
+]
+2016-07-09 03:06:58 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:58 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58632'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033618.211
+    'REQUEST_TIME' => 1468033618
+]
+2016-07-09 03:06:58 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:58 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58632'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033618.3917
+    'REQUEST_TIME' => 1468033618
+]
+2016-07-09 03:06:58 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:58 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58632'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033618.5335
+    'REQUEST_TIME' => 1468033618
+]
+2016-07-09 03:06:58 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:58 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58632'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033618.7249
+    'REQUEST_TIME' => 1468033618
+]
+2016-07-09 03:06:58 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:58 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58647'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033618.8604
+    'REQUEST_TIME' => 1468033618
+]
+2016-07-09 03:06:59 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Services\HelloSwoole\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:06:59 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58647'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033619.0367
+    'REQUEST_TIME' => 1468033619
+]
+2016-07-09 03:07:26 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\HelloSwooleClient' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:07:26 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58647'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033646.4333
+    'REQUEST_TIME' => 1468033646
+]
+2016-07-09 03:07:46 [127.0.0.1][-][-][error][Error] Error: Class 'app\controllers\Message' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:48
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-09 03:07:46 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58647'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033666.5411
+    'REQUEST_TIME' => 1468033666
+]
+2016-07-09 03:10:35 [127.0.0.1][-][-][error][Thrift\Exception\TProtocolException] Thrift\Exception\TProtocolException: Bad version identifier: -1912534785 in /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/hbase/Thrift/Protocol/TBinaryProtocol.php:224
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/hbase/Services/HelloSwoole/HelloSwooleClient.php(72): Thrift\Protocol\TBinaryProtocol->readMessageBegin(NULL, 0, 0)
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/hbase/Services/HelloSwoole/HelloSwooleClient.php(41): Services\HelloSwoole\HelloSwooleClient->recv_sendMessage()
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php(50): Services\HelloSwoole\HelloSwooleClient->sendMessage(Object(Services\HelloSwoole\Message))
+#3 [internal function]: app\controllers\IndexController->actionHello()
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#10 {main}
+2016-07-09 03:10:35 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58692'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033835.7091
+    'REQUEST_TIME' => 1468033835
+]
+2016-07-09 03:12:32 [127.0.0.1][-][-][error][Thrift\Exception\TProtocolException] Thrift\Exception\TProtocolException: Bad version identifier: -1912534785 in /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/hbase/Thrift/Protocol/TBinaryProtocol.php:224
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/hbase/Services/HelloSwoole/HelloSwooleClient.php(72): Thrift\Protocol\TBinaryProtocol->readMessageBegin(NULL, 0, 0)
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/hbase/Services/HelloSwoole/HelloSwooleClient.php(41): Services\HelloSwoole\HelloSwooleClient->recv_sendMessage()
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php(50): Services\HelloSwoole\HelloSwooleClient->sendMessage(Object(Services\HelloSwoole\Message))
+#3 [internal function]: app\controllers\IndexController->actionHello()
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#10 {main}
+2016-07-09 03:12:32 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58716'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033952.1721
+    'REQUEST_TIME' => 1468033952
+]
+2016-07-09 03:12:32 [127.0.0.1][-][-][error][Thrift\Exception\TProtocolException] Thrift\Exception\TProtocolException: Bad version identifier: -1912534785 in /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/hbase/Thrift/Protocol/TBinaryProtocol.php:224
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/hbase/Services/HelloSwoole/HelloSwooleClient.php(72): Thrift\Protocol\TBinaryProtocol->readMessageBegin(NULL, 0, 0)
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/hbase/Services/HelloSwoole/HelloSwooleClient.php(41): Services\HelloSwoole\HelloSwooleClient->recv_sendMessage()
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php(50): Services\HelloSwoole\HelloSwooleClient->sendMessage(Object(Services\HelloSwoole\Message))
+#3 [internal function]: app\controllers\IndexController->actionHello()
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#10 {main}
+2016-07-09 03:12:32 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '58716'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468033952.7755
+    'REQUEST_TIME' => 1468033952
+]
