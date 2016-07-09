@@ -7,7 +7,11 @@ use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 
+use Thrift\Protocol\TBinaryProtocol;
 use Thrift\Transport\TSocket;
+use Thrift\Transport\TFramedTransport;
+
+use Services\HelloSwoole;
 
 use app\models\User;
 
@@ -35,7 +39,17 @@ class IndexController extends Controller
         //$redis->set('name','bill');
         //var_dump($redis->get('name'));
 
-        $socket = new TSocket("127.0.0.1", 8091);
+        $socket = new TSocket("127.0.0.1", 57308);
+        $transport = new TFramedTransport($socket);
+        $protocol = new TBinaryProtocol($transport);
+        $transport->open();
+
+        $client = new Services\HelloSwoole\HelloSwooleClient($protocol);
+        $message = new Services\HelloSwoole\Message(array('send_uid' => 350749960, 'name' => 'rango'));
+        $ret = $client->sendMessage($message);
+        var_dump($ret);
+
+        $transport->close();
         var_dump($socket);die;
         return $this->render('index');
     }
