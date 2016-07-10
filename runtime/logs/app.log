@@ -12473,3 +12473,1226 @@ Stack trace:
     'REQUEST_TIME_FLOAT' => 1468049146.371
     'REQUEST_TIME' => 1468049146
 ]
+2016-07-10 01:24:29 [127.0.0.1][-][-][error][Error] Error: Class 'app\library\core\ReflectionClass' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/library/core/Factory.php:14
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php(18): app\library\core\Factory::create('IndexService')
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/base/CAction.php(16): app\actions\index\SayAction->execute()
+#2 [internal function]: app\library\base\CAction->run()
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Action.php(92): call_user_func_array(Array, Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#9 {main}
+2016-07-10 01:24:29 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61743'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468113869.2999
+    'REQUEST_TIME' => 1468113869
+]
+2016-07-10 01:24:49 [127.0.0.1][-][-][error][ReflectionException] ReflectionException: Class IndexService does not exist in /Users/zhangbingbing/Work/nginx/html/yiidemo/library/core/Factory.php:14
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/core/Factory.php(14): ReflectionClass->__construct('IndexService')
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php(18): app\library\core\Factory::create('IndexService')
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/base/CAction.php(16): app\actions\index\SayAction->execute()
+#3 [internal function]: app\library\base\CAction->run()
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Action.php(92): call_user_func_array(Array, Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#10 {main}
+2016-07-10 01:24:49 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61743'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468113889.2403
+    'REQUEST_TIME' => 1468113889
+]
+2016-07-10 01:25:50 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected 'class' (T_CLASS) in /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php:18
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\actions\\ind...')
+#1 [internal function]: spl_autoload_call('app\\actions\\ind...')
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/di/Container.php(422): ReflectionClass->__construct('app\\actions\\ind...')
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/di/Container.php(362): yii\di\Container->getDependencies('app\\actions\\ind...')
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/di/Container.php(154): yii\di\Container->build('app\\actions\\ind...', Array, Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/BaseYii.php(347): yii\di\Container->get('app\\actions\\ind...', Array, Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(222): yii\BaseYii::createObject(Array, Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(123): yii\base\Controller->createAction('say')
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#9 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#10 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#12 {main}
+2016-07-10 01:25:50 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61743'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468113950.293
+    'REQUEST_TIME' => 1468113950
+]
+2016-07-10 01:26:02 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant IndexService - assumed 'IndexService' in /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php:18
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php(18): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/Users/zhangbin...', 18, Array)
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/base/CAction.php(16): app\actions\index\SayAction->execute()
+#2 [internal function]: app\library\base\CAction->run()
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Action.php(92): call_user_func_array(Array, Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#9 {main}
+2016-07-10 01:26:02 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61743'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468113962.902
+    'REQUEST_TIME' => 1468113962
+]
+2016-07-10 01:27:11 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant IndexService - assumed 'IndexService' in /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php:18
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php(18): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/Users/zhangbin...', 18, Array)
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/base/CAction.php(16): app\actions\index\SayAction->execute()
+#2 [internal function]: app\library\base\CAction->run()
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Action.php(92): call_user_func_array(Array, Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#9 {main}
+2016-07-10 01:27:11 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61795'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468114031.4695
+    'REQUEST_TIME' => 1468114031
+]
+2016-07-10 01:27:13 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant IndexService - assumed 'IndexService' in /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php:18
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php(18): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/Users/zhangbin...', 18, Array)
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/base/CAction.php(16): app\actions\index\SayAction->execute()
+#2 [internal function]: app\library\base\CAction->run()
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Action.php(92): call_user_func_array(Array, Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#9 {main}
+2016-07-10 01:27:13 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61795'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468114033.9423
+    'REQUEST_TIME' => 1468114033
+]
+2016-07-10 01:27:14 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant IndexService - assumed 'IndexService' in /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php:18
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php(18): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/Users/zhangbin...', 18, Array)
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/base/CAction.php(16): app\actions\index\SayAction->execute()
+#2 [internal function]: app\library\base\CAction->run()
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Action.php(92): call_user_func_array(Array, Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#9 {main}
+2016-07-10 01:27:14 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61795'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468114034.4561
+    'REQUEST_TIME' => 1468114034
+]
+2016-07-10 01:27:14 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant IndexService - assumed 'IndexService' in /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php:18
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php(18): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/Users/zhangbin...', 18, Array)
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/base/CAction.php(16): app\actions\index\SayAction->execute()
+#2 [internal function]: app\library\base\CAction->run()
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Action.php(92): call_user_func_array(Array, Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#9 {main}
+2016-07-10 01:27:14 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61795'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468114034.7634
+    'REQUEST_TIME' => 1468114034
+]
+2016-07-10 01:27:14 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant IndexService - assumed 'IndexService' in /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php:18
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php(18): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/Users/zhangbin...', 18, Array)
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/base/CAction.php(16): app\actions\index\SayAction->execute()
+#2 [internal function]: app\library\base\CAction->run()
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Action.php(92): call_user_func_array(Array, Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#9 {main}
+2016-07-10 01:27:14 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61795'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468114034.9785
+    'REQUEST_TIME' => 1468114034
+]
+2016-07-10 01:27:15 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant IndexService - assumed 'IndexService' in /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php:18
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php(18): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/Users/zhangbin...', 18, Array)
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/base/CAction.php(16): app\actions\index\SayAction->execute()
+#2 [internal function]: app\library\base\CAction->run()
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Action.php(92): call_user_func_array(Array, Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#9 {main}
+2016-07-10 01:27:15 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61795'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468114035.1864
+    'REQUEST_TIME' => 1468114035
+]
+2016-07-10 01:27:15 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant IndexService - assumed 'IndexService' in /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php:18
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php(18): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/Users/zhangbin...', 18, Array)
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/base/CAction.php(16): app\actions\index\SayAction->execute()
+#2 [internal function]: app\library\base\CAction->run()
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Action.php(92): call_user_func_array(Array, Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#9 {main}
+2016-07-10 01:27:15 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61795'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468114035.3811
+    'REQUEST_TIME' => 1468114035
+]
+2016-07-10 01:27:15 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant IndexService - assumed 'IndexService' in /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php:18
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php(18): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/Users/zhangbin...', 18, Array)
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/base/CAction.php(16): app\actions\index\SayAction->execute()
+#2 [internal function]: app\library\base\CAction->run()
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Action.php(92): call_user_func_array(Array, Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#9 {main}
+2016-07-10 01:27:15 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61795'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468114035.5711
+    'REQUEST_TIME' => 1468114035
+]
+2016-07-10 01:27:15 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant IndexService - assumed 'IndexService' in /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php:18
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php(18): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/Users/zhangbin...', 18, Array)
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/base/CAction.php(16): app\actions\index\SayAction->execute()
+#2 [internal function]: app\library\base\CAction->run()
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Action.php(92): call_user_func_array(Array, Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#9 {main}
+2016-07-10 01:27:15 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61795'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468114035.772
+    'REQUEST_TIME' => 1468114035
+]
+2016-07-10 01:38:46 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ')' in /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php:18
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\actions\\ind...')
+#1 [internal function]: spl_autoload_call('app\\actions\\ind...')
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/di/Container.php(422): ReflectionClass->__construct('app\\actions\\ind...')
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/di/Container.php(362): yii\di\Container->getDependencies('app\\actions\\ind...')
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/di/Container.php(154): yii\di\Container->build('app\\actions\\ind...', Array, Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/BaseYii.php(347): yii\di\Container->get('app\\actions\\ind...', Array, Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(222): yii\BaseYii::createObject(Array, Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(123): yii\base\Controller->createAction('say')
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#9 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#10 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#12 {main}
+2016-07-10 01:38:46 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62106'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468114726.5737
+    'REQUEST_TIME' => 1468114726
+]
+2016-07-10 01:39:00 [127.0.0.1][-][-][error][Error] Error: Undefined class constant '__class__' in /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php:18
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/base/CAction.php(16): app\actions\index\SayAction->execute()
+#1 [internal function]: app\library\base\CAction->run()
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Action.php(92): call_user_func_array(Array, Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#8 {main}
+2016-07-10 01:39:00 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62106'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468114740.1669
+    'REQUEST_TIME' => 1468114740
+]
+2016-07-10 02:11:52 [127.0.0.1][-][-][error][Error] Error: Class 'app\actions\index\Yii' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php:18
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/base/CAction.php(16): app\actions\index\SayAction->execute()
+#1 [internal function]: app\library\base\CAction->run()
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Action.php(92): call_user_func_array(Array, Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#8 {main}
+2016-07-10 02:11:52 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62625'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468116712.1042
+    'REQUEST_TIME' => 1468116712
+]
+2016-07-10 02:12:53 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\web\Application::config in /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Component.php:143
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/di/ServiceLocator.php(73): yii\base\Component->__get('config')
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php(19): yii\di\ServiceLocator->__get('config')
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/base/CAction.php(16): app\actions\index\SayAction->execute()
+#3 [internal function]: app\library\base\CAction->run()
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Action.php(92): call_user_func_array(Array, Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#10 {main}
+2016-07-10 02:12:53 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62625'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468116773.5067
+    'REQUEST_TIME' => 1468116773
+]
+2016-07-10 02:16:34 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: adminEmail in /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php:19
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php(19): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/Users/zhangbin...', 19, Array)
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/base/CAction.php(16): app\actions\index\SayAction->execute()
+#2 [internal function]: app\library\base\CAction->run()
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Action.php(92): call_user_func_array(Array, Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#9 {main}
+2016-07-10 02:16:34 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62647'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468116994.7838
+    'REQUEST_TIME' => 1468116994
+]
+2016-07-10 02:22:11 [127.0.0.1][-][-][error][yii\base\InvalidParamException] yii\base\InvalidParamException: Invalid path alias: @vender in /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/BaseYii.php:153
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php(19): yii\BaseYii::getAlias('@vender')
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/base/CAction.php(16): app\actions\index\SayAction->execute()
+#2 [internal function]: app\library\base\CAction->run()
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Action.php(92): call_user_func_array(Array, Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#9 {main}
+2016-07-10 02:22:11 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62724'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468117331.2495
+    'REQUEST_TIME' => 1468117331
+]
+2016-07-10 02:33:51 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Missing argument 1 for yii\BaseYii::getRootAlias(), called in /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php on line 20 and defined in /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/BaseYii.php:166
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/BaseYii.php(166): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', '/Users/zhangbin...', 166, Array)
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/actions/index/SayAction.php(20): yii\BaseYii::getRootAlias()
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/base/CAction.php(16): app\actions\index\SayAction->execute()
+#3 [internal function]: app\library\base\CAction->run()
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Action.php(92): call_user_func_array(Array, Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('say', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/say', Array)
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#10 {main}
+2016-07-10 02:33:51 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/say'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62815'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_URI' => '/index/say'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/say'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/say'
+    'REQUEST_TIME_FLOAT' => 1468118031.3378
+    'REQUEST_TIME' => 1468118031
+]
+2016-07-10 02:42:57 [127.0.0.1][-][-][error][yii\base\ErrorException:64] yii\base\ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script in /Users/zhangbingbing/Work/nginx/html/yiidemo/library/core/Memcache.php:6
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-07-10 02:42:57 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62866'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468118577.9348
+    'REQUEST_TIME' => 1468118577
+]
+2016-07-10 02:43:39 [127.0.0.1][-][-][error][Error] Error: Class 'app\library\core\Yii' not found in /Users/zhangbingbing/Work/nginx/html/yiidemo/library/core/Memcache.php:5
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/BaseYii.php(291): include()
+#1 [internal function]: yii\BaseYii::autoload('app\\library\\cor...')
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php(41): spl_autoload_call('app\\library\\cor...')
+#3 [internal function]: app\controllers\IndexController->actionHello()
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#10 {main}
+2016-07-10 02:43:39 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62866'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468118619.8326
+    'REQUEST_TIME' => 1468118619
+]
+2016-07-10 02:50:04 [127.0.0.1][-][-][error][yii\base\ErrorException:64] yii\base\ErrorException: Cannot declare class Clickalicious\Memcached\Client, because the name is already in use in /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/memcache/Clickalicious/Memcached/Client.php:73
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-07-10 02:50:03 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62924'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468119003.9943
+    'REQUEST_TIME' => 1468119003
+]
+2016-07-10 03:02:08 [127.0.0.1][-][-][error][Error] Error: Call to undefined method app\library\core\Redis::set() in /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php:47
+Stack trace:
+#0 [internal function]: app\controllers\IndexController->actionHello()
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#7 {main}
+2016-07-10 03:02:08 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63001'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468119728.0239
+    'REQUEST_TIME' => 1468119728
+]
+2016-07-10 03:03:28 [127.0.0.1][-][-][error][Predis\Connection\ConnectionException] Predis\Connection\ConnectionException: Connection refused [tcp://127.0.0.1:6379] in /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/predis/src/Connection/AbstractConnection.php:155
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/predis/src/Connection/StreamConnection.php(128): Predis\Connection\AbstractConnection->onConnectionError('Connection refu...', 61)
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/predis/src/Connection/StreamConnection.php(178): Predis\Connection\StreamConnection->createStreamSocket(Object(Predis\Connection\Parameters), 'tcp://127.0.0.1...', 4)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/predis/src/Connection/StreamConnection.php(100): Predis\Connection\StreamConnection->tcpStreamInitializer(Object(Predis\Connection\Parameters))
+#3 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/predis/src/Connection/AbstractConnection.php(81): Predis\Connection\StreamConnection->createResource()
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/predis/src/Connection/StreamConnection.php(258): Predis\Connection\AbstractConnection->connect()
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/predis/src/Connection/AbstractConnection.php(180): Predis\Connection\StreamConnection->connect()
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/predis/src/Connection/StreamConnection.php(288): Predis\Connection\AbstractConnection->getResource()
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/predis/src/Connection/StreamConnection.php(394): Predis\Connection\StreamConnection->write('*3\r\n$3\r\nSET\r\n$4...')
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/predis/src/Connection/AbstractConnection.php(110): Predis\Connection\StreamConnection->writeRequest(Object(Predis\Command\StringSet))
+#9 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/predis/src/Client.php(331): Predis\Connection\AbstractConnection->executeCommand(Object(Predis\Command\StringSet))
+#10 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/predis/src/Client.php(314): Predis\Client->executeCommand(Object(Predis\Command\StringSet))
+#11 /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php(47): Predis\Client->__call('set', Array)
+#12 [internal function]: app\controllers\IndexController->actionHello()
+#13 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#14 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#15 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#16 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#17 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#19 {main}
+2016-07-10 03:03:28 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63010'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468119808.4221
+    'REQUEST_TIME' => 1468119808
+]

@@ -14,7 +14,8 @@ use Thrift\Transport\TFramedTransport;
 use \Services\HelloSwoole\HelloSwooleClient;
 use \Services\HelloSwoole\Message;
 
-use \Clickalicious\Memcached\Client;
+use app\library\core\Memcache;
+use app\library\core\Redis;
 
 use app\models\User;
 
@@ -38,11 +39,11 @@ class IndexController extends Controller
 
     public function actionHello()
     {
-        //$memcache = new Client('127.0.0.1');
-        //$memcache->set('name','bill');
-        //var_dump($memcache->get('name'));die;
+        //$memcache = Memcache::getInstance();
+        //$memcache->set('email','bill@126.com');
+        //var_dump($memcache->get('email'));die;
         //
-        //$redis = new \Predis\Client();
+        //$redis = Redis::getInstance();
         //$redis->set('name','bill');
         //var_dump($redis->get('name'));
 
