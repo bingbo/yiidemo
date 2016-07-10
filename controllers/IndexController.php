@@ -43,9 +43,9 @@ class IndexController extends Controller
         //$memcache->set('email','bill@126.com');
         //var_dump($memcache->get('email'));die;
         //
-        //$redis = Redis::getInstance();
-        //$redis->set('name','bill');
-        //var_dump($redis->get('name'));
+        $redis = Redis::getInstance();
+        $redis->set('name','bill');
+        var_dump($redis->get('name'));
 
         /*
         $socket = new TSocket("127.0.0.1", 58550);

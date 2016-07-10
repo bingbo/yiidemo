@@ -13696,3 +13696,103 @@ Stack trace:
     'REQUEST_TIME_FLOAT' => 1468119808.4221
     'REQUEST_TIME' => 1468119808
 ]
+2016-07-10 05:40:11 [127.0.0.1][-][-][error][InvalidArgumentException] InvalidArgumentException: Invalid type for client options. in /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/predis/src/Client.php:81
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/predis/src/Client.php(55): Predis\Client->createOptions(6379)
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/core/Redis.php(17): Predis\Client->__construct('127.0.0.1', 6379)
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php(46): app\library\core\Redis::getInstance()
+#3 [internal function]: app\controllers\IndexController->actionHello()
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#10 {main}
+2016-07-10 05:40:11 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63647'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468129211.9558
+    'REQUEST_TIME' => 1468129211
+]
+2016-07-10 05:40:50 [127.0.0.1][-][-][error][InvalidArgumentException] InvalidArgumentException: Invalid type for client options. in /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/predis/src/Client.php:81
+Stack trace:
+#0 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/predis/src/Client.php(55): Predis\Client->createOptions('6379')
+#1 /Users/zhangbingbing/Work/nginx/html/yiidemo/library/core/Redis.php(17): Predis\Client->__construct('127.0.0.1', '6379')
+#2 /Users/zhangbingbing/Work/nginx/html/yiidemo/controllers/IndexController.php(46): app\library\core\Redis::getInstance()
+#3 [internal function]: app\controllers\IndexController->actionHello()
+#4 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Module.php(456): yii\base\Controller->runAction('hello', Array)
+#7 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/web/Application.php(86): yii\base\Module->runAction('index/hello', Array)
+#8 /Users/zhangbingbing/Work/nginx/html/yiidemo/vendor/yii2/framework/base/Application.php(378): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php(13): yii\base\Application->run()
+#10 {main}
+2016-07-10 05:40:50 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'USER' => 'zhangbingbing'
+    'HOME' => '/Users/zhangbingbing'
+    'PATH_TRANSLATED' => '//Users/zhangbingbing/Work/nginx/html'
+    'ORIG_SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php/index/hello'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'localhost:8001'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63647'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.9.5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '//Users/zhangbingbing/Work/nginx/html'
+    'DOCUMENT_URI' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_URI' => '/index/hello'
+    'SCRIPT_NAME' => '/yiidemo/web/index.php/index/hello'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '//Users/zhangbingbing/Work/nginx/html/yiidemo/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/yiidemo/web/index.php/index/hello'
+    'REQUEST_TIME_FLOAT' => 1468129250.3203
+    'REQUEST_TIME' => 1468129250
+]

@@ -5,7 +5,7 @@ namespace app\library\core;
 require(\Yii::getAlias('@app') . '/vendor/memcache/Clickalicious/Memcached/Client.php');
 
 
-
+use Yii;
 use \Clickalicious\Memcached\Client;
 
 class Memcache{
@@ -14,7 +14,8 @@ class Memcache{
 
     public static function getInstance(){
         if(empty(self::$instance)){
-            self::$instance = new Client('127.0.0.1');
+            $conf = Yii::$app->params['memcacheConf'];
+            self::$instance = new Client($conf['host'], $conf['port']);
         }
         return self::$instance;
     }
