@@ -8,6 +8,7 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 
 use Thrift\Protocol\TBinaryProtocol;
+use Thrift\Protocol\TCompactProtocol;
 use Thrift\Transport\TSocket;
 use Thrift\Transport\TFramedTransport;
 
@@ -43,14 +44,14 @@ class IndexController extends Controller
         //$memcache->set('email','bill@126.com');
         //var_dump($memcache->get('email'));die;
         //
-        $redis = Redis::getInstance();
-        $redis->set('name','bill');
-        var_dump($redis->get('name'));
+        //$redis = Redis::getInstance();
+        //$redis->set('name','bill');
+        //var_dump($redis->get('name'));
 
-        /*
-        $socket = new TSocket("127.0.0.1", 58550);
+        
+        $socket = new TSocket('127.0.0.1',51632);
         $transport = new TFramedTransport($socket);
-        $protocol = new TBinaryProtocol($transport);
+        $protocol = new TCompactProtocol($transport);
         $transport->open();
 
         $client = new HelloSwooleClient($protocol);
@@ -59,8 +60,7 @@ class IndexController extends Controller
         var_dump($ret);
 
         $transport->close();
-        var_dump($socket);die;
-         */
+         
         return $this->render('index');
     }
 
@@ -76,6 +76,10 @@ class IndexController extends Controller
             'code' => $request->get('code'),
         );
         return $this->render('error.tpl', ['e' => $e]);
+    }
+
+    public function actionTab(){
+        return $this->render('tab.tpl');
     }
 
 
