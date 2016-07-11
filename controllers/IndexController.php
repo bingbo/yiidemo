@@ -49,7 +49,10 @@ class IndexController extends Controller
         //var_dump($redis->get('name'));
 
         
-        $socket = new TSocket('127.0.0.1',51632);
+        //$socket = new TSocket('127.0.0.1',51632);
+        $socket = new TSocket('140.205.171.122',9999);
+        $socket->setSendTimeout(100000);
+        $socket->setRecvTimeout(100000);
         $transport = new TFramedTransport($socket);
         $protocol = new TCompactProtocol($transport);
         $transport->open();

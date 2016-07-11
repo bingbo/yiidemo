@@ -40,6 +40,9 @@ class HelloSwooleClient implements \Services\HelloSwoole\HelloSwooleIf {
     $this->send_sendMessage($msg);
     return $this->recv_sendMessage();
   }
+  public function getTableNames(){
+    
+  }
 
   public function send_sendMessage(\Services\HelloSwoole\Message $msg)
   {
