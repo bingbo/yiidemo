@@ -36,6 +36,25 @@ server {
 }
 ```
 
+## apache配置
+
+```apache
+Listen 8014
+<VirtualHost *:8014>
+    DocumentRoot "/home/work/yiidemo/web"
+    RewriteEngine on
+    RewriteCond %{REQUEST_URI} !^/static
+    RewriteRule ^(.*)$          /index.php$1  [L]
+    <Directory "/home/work/yiidemo/web">
+        Options FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from all
+    </Directory>
+</VirtualHost>
+```
+
+
 ##访问
 
 http://localhost:8001/user/index
