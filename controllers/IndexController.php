@@ -7,16 +7,9 @@ use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 
-use Thrift\Protocol\TBinaryProtocol;
-use Thrift\Protocol\TCompactProtocol;
-use Thrift\Transport\TSocket;
-use Thrift\Transport\TFramedTransport;
-
-use \Services\HelloSwoole\HelloSwooleClient;
-use \Services\HelloSwoole\Message;
-
 use app\library\core\Memcache;
 use app\library\core\Redis;
+use app\library\core\Hbase;
 
 use app\models\User;
 
@@ -49,20 +42,12 @@ class IndexController extends Controller
         //var_dump($redis->get('name'));
 
         
-        //$socket = new TSocket('127.0.0.1',51632);
-        $socket = new TSocket('140.205.171.122',9999);
-        $socket->setSendTimeout(100000);
-        $socket->setRecvTimeout(100000);
-        $transport = new TFramedTransport($socket);
-        $protocol = new TCompactProtocol($transport);
-        $transport->open();
+        /*
+        $hbase = Hbase::getInstance();
+        $tables = $hbase->showTables();
+        var_dump($tables);
+         */
 
-        $client = new HelloSwooleClient($protocol);
-        $message = new Message(array('send_uid' => 350749960, 'name' => 'rango'));
-        $ret = $client->sendMessage($message);
-        var_dump($ret);
-
-        $transport->close();
          
         return $this->render('index');
     }
