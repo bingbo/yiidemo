@@ -1,5 +1,7 @@
 # yiidemo
 
+手动添加依赖及lib的yii2框架demo
+
 ## Nginx配置
 
 ```nginx
